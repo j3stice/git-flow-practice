@@ -24,7 +24,7 @@ jobs:
         node-version: '16'
 
     - name: Install dependencies
-      run: cd github npm install
+      run: npm install
 
     - name: Run tests
       run: npm test
